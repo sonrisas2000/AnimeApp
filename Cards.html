@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <title>Anime</title>
+</head>
+<body>
+        <section>
+            <article id="card" class="card">
+                <div class="bg_img"><img id="bg_img"  src="" alt=""></div>
+                <div class="bg_img_overlay"></div>
+                <div class="anime">
+                    <img id="imgAnime" src="" alt="">
+                    <h3 id ="title"></h3>
+                </div>
+                <div class="container-buttons">
+                    <button type="button" class="button__red " id="Bad"><img src="./src/icon/eliminar-simbolo.svg" alt="No me gusta"></button>
+                    <button type="button" class="button__green" onclick="pageLoaded()" id="Good"><img src="./src/icon/cheque.svg" alt="Me gusta" ></button>
+                </div>
+            </article>
+        </section>
+<script type="module" src="app.js"></script>
+<script type="module" src="fetch.js"></script>
+</body>
+</html>
