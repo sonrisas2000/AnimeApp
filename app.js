@@ -21,7 +21,7 @@ function animarLike(){
 }
 
 
-buttonDontLike.onclick = () => animarDontLike(card.remove())
+buttonDontLike.onclick = () => animarDontLike()
 
 buttonLike.onclick = () => animarLike()
     

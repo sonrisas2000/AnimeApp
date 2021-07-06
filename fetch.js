@@ -5,11 +5,7 @@ let title = document.getElementById('title');
 let number = Math.floor(Math.random()*15+200);
 
 
-
-
-
 async function pageLoaded (){
-
     // Take Anime
     fetch (`${base_url}${number}`)
     .then(res=>res.json())
