@@ -3,6 +3,7 @@ let card = document.getElementById('card');
 const buttonDontLike = document.getElementById('Bad');
 
 
+
 function animarDontLike(){
     if (card.className === 'card'){
         card.className = 'card moveLeft-card';
@@ -20,8 +21,7 @@ function animarLike(){
 }
 
 
-buttonDontLike.onclick = () => animarDontLike()
-
+buttonDontLike.onclick = () => animarDontLike(card.remove())
 
 buttonLike.onclick = () => animarLike()
     

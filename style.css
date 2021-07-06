@@ -95,7 +95,6 @@ section{
 .card .bg_img{
     width: 100%;
     height: 50%;
-    border-radius: 20px 20px 0px 0px;
     grid-row: 1 / 2;
     z-index: 0;
     position: absolute;
@@ -108,7 +107,7 @@ section{
     width: 100%;
     height: 50%;
     background-color: rgba(43, 37, 37, 0.438);
-    background-size: cover;
+    background-size: contain;
     border-radius: 20px 20px 0px 0px;
     grid-row: 1 / 2;
     z-index: 1;
